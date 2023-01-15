@@ -7,3 +7,6 @@ log('number', 1)
 let nullableNumber:number|null
 
 nullableNumber = null
+
+
+

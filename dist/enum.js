@@ -8,9 +8,9 @@ var Direction;
 })(Direction || (Direction = {}));
 var D;
 (function (D) {
-    D["Up"] = "Up";
+    D[D["Up"] = 1] = "Up";
     D["Down"] = "Down";
-    D["Left"] = "Left";
+    D[D["Left"] = 1] = "Left";
     D["Right"] = "Right";
 })(D || (D = {}));
 let direction;

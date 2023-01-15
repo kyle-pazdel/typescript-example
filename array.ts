@@ -11,3 +11,10 @@ function useState():[object, number] {
   let setState = 1
   return [state, setState]
 }
+
+
+
+function sayTheirName():[number, string] {
+  var person: [number, string, boolean]
+  return []
+}

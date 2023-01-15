@@ -9,4 +9,8 @@ function useState() {
     let setState = 1;
     return [state, setState];
 }
+function sayTheirName() {
+    var person;
+    return [];
+}
 //# sourceMappingURL=array.js.map

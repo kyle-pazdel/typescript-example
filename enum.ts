@@ -6,9 +6,9 @@ enum Direction {
 }
 
 enum D {
-  Up = 'Up',
+  Up = 1,
   Down = 'Down',
-  Left = 'Left',
+  Left = 1,
   Right = 'Right'
 }
 
