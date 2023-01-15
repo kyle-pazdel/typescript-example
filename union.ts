@@ -1,5 +1,9 @@
-function log(message:string|number) {
+function log(message:string|number, id:number) {
   console.log(message);
 } 
 
-log('a')
+log('number', 1)
+
+let nullableNumber:number|null
+
+nullableNumber = null

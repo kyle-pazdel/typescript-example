@@ -1,6 +1,8 @@
 "use strict";
-function log(message) {
+function log(message, id) {
     console.log(message);
 }
-log('a');
+log('number', 1);
+let nullableNumber;
+nullableNumber = null;
 //# sourceMappingURL=union.js.map
