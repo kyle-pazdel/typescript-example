@@ -5,9 +5,15 @@ enum Direction {
   Right
 }
 
+enum D {
+  Up = 'Up',
+  Down = 'Down',
+  Left = 'Left',
+  Right = 'Right'
+}
 
-let direction:Direction
+let direction:D
 
-direction = Direction.Down
+direction = D.Down
 
 console.log(direction);
