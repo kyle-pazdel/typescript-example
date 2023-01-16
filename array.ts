@@ -13,8 +13,11 @@ function useState():[object, number] {
 }
 
 
+let person1:[number, string, boolean]
+person1 = [1, 'Kyle', true]
 
-function sayTheirName():[number, string] {
-  var person: [number, string, boolean]
-  return []
+function sayTheirName(person:any):[number, string] {
+  return [person[0], person[1]]
 }
+
+console.log(sayTheirName(person1));

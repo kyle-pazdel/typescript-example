@@ -9,8 +9,10 @@ function useState() {
     let setState = 1;
     return [state, setState];
 }
-function sayTheirName() {
-    var person;
-    return [];
+let person1;
+person1 = [1, 'Kyle', true];
+function sayTheirName(person) {
+    return [person[0], person[1]];
 }
+console.log(sayTheirName(person1));
 //# sourceMappingURL=array.js.map
