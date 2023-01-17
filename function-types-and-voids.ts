@@ -4,7 +4,7 @@ function addNum(x: number, y: number): number {
 }
 
 // Void -- SHOULD NOT return anything
-function log(message: string | number) : void {
+function log1(message: string | number) : void {
   console.log(message);
 } 
 
