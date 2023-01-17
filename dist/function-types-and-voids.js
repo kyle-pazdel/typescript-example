@@ -3,9 +3,17 @@
 function addNum(x, y) {
     return x + y;
 }
-// Void
+// Void -- SHOULD NOT return anything
 function log(message) {
     console.log(message);
-    return 1;
+}
+{
+    const add = (x, y) => x + y;
+    const myFun = function (x, y) {
+        return x + y;
+    };
+}
+{
+    const add = (x, y) => x + y;
 }
 //# sourceMappingURL=function-types-and-voids.js.map
