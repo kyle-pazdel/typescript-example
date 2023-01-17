@@ -8,4 +8,7 @@ const func = function (a, b) {
     return [a, b];
 };
 // this allows you to declare all areas of expression where type should be the same and then define that type when assigning the 'type' to a function
+// generics with multiple types
+{
+}
 //# sourceMappingURL=generics.js.map
