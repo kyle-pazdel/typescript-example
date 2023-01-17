@@ -4,5 +4,8 @@ function f1(x, y) {
     return [x, y];
 }
 f1('', '');
-// or f1(1, 1)
+const func = function (a, b) {
+    return [a, b];
+};
+// this allows you to declare all areas of expression where type should be the same and then define that type when assigning the 'type' to a function
 //# sourceMappingURL=generics.js.map
