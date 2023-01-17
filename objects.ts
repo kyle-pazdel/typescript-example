@@ -9,11 +9,11 @@ type employee = {
   myMethod(id:number):string
 }
 
-let e:employee = {
-  id: 1,
-  name: 'Kyle',
-  nationality: 'American',
-}
+// let e:employee = {
+//   id: 1,
+//   name: 'Kyle',
+//   nationality: 'American',
+// }
 
 interface e {
   id: number,
@@ -24,3 +24,15 @@ interface e {
 type myType = string | number
 //cannot use primitive types or unions with interfaces
 // types are a superset of interfaces
+
+interface myType1 {
+  id: string | number
+}
+
+class myClass implements e {
+  id = 1;
+  name = '';
+  method(): string {
+    return ''
+  }
+}
