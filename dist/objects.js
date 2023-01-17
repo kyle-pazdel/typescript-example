@@ -4,4 +4,6 @@ let e = {
     name: 'Kyle',
     nationality: 'American',
 };
+//cannot use primitive types or unions with interfaces
+// types are a superset of interfaces
 //# sourceMappingURL=objects.js.map
